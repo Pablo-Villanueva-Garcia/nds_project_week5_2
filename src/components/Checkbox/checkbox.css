@@ -1,0 +1,23 @@
+[type="checkbox"] {
+  display: none;
+}
+
+label {
+  padding-left: 10px;
+  position: relative;
+}
+
+label:before {
+  content: "";
+  border: 1px solid red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+}
+
+[type="checkbox"]:checked + label:before {
+  color: black;
+  content: "\f00c";
+  font-family: FontAwesome;
+}

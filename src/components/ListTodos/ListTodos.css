@@ -1,0 +1,20 @@
+#ListTodos {
+  background-color: #c3dbf0;
+  height: 850px;
+  overflow: auto;
+  -webkit-box-shadow: 11px 14px 9px 1px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 11px 14px 9px 1px rgba(0, 0, 0, 0.63);
+  box-shadow: 11px 14px 9px 1px rgba(0, 0, 0, 0.63);
+  padding: 0px 20px 20px 20px;
+}
+
+#ListTodos h2 {
+  padding-top: 20px;
+  text-decoration: underline;
+
+  font-family: "Nerko One", cursive;
+  position: fixed;
+  background-color: #c3dbf0;
+  z-index: 100;
+  margin: 0;
+}

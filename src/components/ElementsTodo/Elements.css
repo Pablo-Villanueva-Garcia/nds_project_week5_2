@@ -1,0 +1,13 @@
+#elements h1 {
+  font-size: 20px;
+  font-family: "Courier Prime", monospace;
+}
+
+#elements p {
+  font-size: 16px;
+  font-family: "Courier Prime", monospace;
+}
+
+#elements {
+  border-bottom: 3px dotted white;
+}
